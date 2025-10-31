@@ -7,7 +7,8 @@
   "host_permissions": ["https://www.radwell.com/Buy/*"],
   "content_scripts": [
     {
-      "matches": ["https://www.radwell.com/Buy/*"],
+      "matches": ["https://www.radwell.com/*/Buy/*", "https://www.radwell.com/Buy/*"],
+
       "js": ["content.js"]
     }
   ]
