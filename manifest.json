@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Radwell Discount Viewer",
+  "version": "1.3",
+  "description": "Shows 10%, 15%, and 20% discounted prices on Radwell product pages.",
+  "permissions": [],
+  "host_permissions": ["https://www.radwell.com/Buy/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.radwell.com/Buy/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
