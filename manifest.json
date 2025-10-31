@@ -9,6 +9,9 @@
     {
 <<<<<<< HEAD
       "matches": ["https://www.radwell.com/*/Buy/*", "https://www.radwell.com/Buy/*"],
+=======
+      "matches": ["https://www.radwell.com/*/Buy/*"],
+>>>>>>> 065196f21da9a62787ff8f197b1a4b061768edea
 
       "js": ["content.js"]
     }
